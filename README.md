@@ -1,5 +1,7 @@
 # Network_programming_sockets_threads
 
+Η εκφώνηση της εργασίας βρίσκεται [εδώ](https://github.com/KostasLiako/Network_programming_sockets_threads/blob/master/hw3-spring-2021.pdf)
+
 ```
 # Εντολή Μεταγλώτισσης:
 travelMonitorClient.c : 
