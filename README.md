@@ -24,8 +24,9 @@ gcc -o monitorServer monitorServer.c citizen.c list.c monitorFunctions.c skipLis
 Η διαδικασία αυτη γίνεται στις συναρτήσεις passingCountriesIntoChilds() και passingArguments(). 
 Στην συνέχεια καλεί την execv με ορίσματα των πίνακα που έχω δημιουργήσει για το κάθε monitor.
 
-<br/>
+
 ### Connect στα monitorServer: 
+
 Αφου δημιουργηθούν τα monitorServer (περιγράφω αναλυτικά παρακάτω ) το TravelMonitorClient περιμένει τα συνδεθεί (έχω βάλει μία sleep(3) έτσι ώστε να προλάβουν να δημιουργηθούν οι servers) με την gethostbyname βρισκω την public IP του δικτύου μου και κάνω connect στο port του αντίστοιχου monitorServer. 
 Στην συνέχεια είναι έτοιμο να δεχθεί ερωτήματα. 
 
